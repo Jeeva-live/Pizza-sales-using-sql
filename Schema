@@ -1,0 +1,29 @@
+SCHEMA OF THE PIZZA SALES
+
+Database
+    ---pizzahut
+
+Tables:
+ 1. pizzas
+    --columns:
+      ---pizza_id
+      ---pizza_type_id
+      ---size
+      ---price
+ 2. pizza_types
+    --columns:
+      ---pizza_type_id
+      ---name
+      ---category
+      ---ingredients
+ 3. orders
+    --columns:
+      ---order_id
+      ---order_date
+      ---order_time
+ 4. order_details
+    --columns:
+      ---order_details_id
+      ---order_id
+      ---pizza_id
+      ---quantity
